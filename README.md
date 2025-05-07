@@ -58,6 +58,10 @@ pip freeze > requirements.txt
 
 Namun, sebaiknya edit file ini untuk hanya menyertakan paket yang benar-benar digunakan dalam proyek.
 
+## link streamlit
+```
+https://datasciences.streamlit.app/
+```
 ## Menginstal Semua Paket yang Diperlukan
 Setelah Anda memiliki file `requirements.txt`, gunakan perintah berikut untuk menginstal semua paket yang diperlukan:
 ```bash
