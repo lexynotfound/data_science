@@ -17,7 +17,7 @@ services:
       # Tambahkan konfigurasi memori untuk kinerja yang lebih baik
       JAVA_OPTS: "-Xmx2g -Xms1g"
     volumes:
-      - metabase-data:/metabase.db
+      - ./metabase-data:/metabase.db
     depends_on:
       - postgres
     restart: unless-stopped
