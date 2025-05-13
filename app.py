@@ -335,7 +335,7 @@ def main():
             with col_result1:
                 # Risk assessment card
                 st.markdown(f"""
-                <div style="padding: 20px; border-radius: 10px; border: 1px solid #ddd; background-color: #f8f9fa;">
+                <div style="padding: 20px; border-radius: 10px; border: 1px solid #ddd; background-color: #1c1c1e;">
                     <h3 style="text-align: center; margin-bottom: 15px;">Risk Assessment</h3>
                     <p style="font-size: 18px; text-align: center;">
                         Risk Probability: <strong>{result['risk_probability']:.2%}</strong>
@@ -352,7 +352,7 @@ def main():
             with col_result2:
                 # Student metrics card
                 st.markdown(f"""
-                <div style="padding: 20px; border-radius: 10px; border: 1px solid #ddd; background-color: #f8f9fa;">
+                <div style="padding: 20px; border-radius: 10px; border: 1px solid #ddd; background-color: #1c1c1e;">
                     <h3 style="text-align: center; margin-bottom: 15px;">Student Metrics</h3>
                     <p style="font-size: 16px;">
                         <strong>Academic Success Rate:</strong> {academic_success_rate:.2%}
